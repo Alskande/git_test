@@ -22,7 +22,12 @@ For example,
     git status is read as git | status | (no destination).
 
 Flow
-    git add ** - Adds saved file to "waiting room"
+    git add filename - Adds saved file to "waiting room"
     git commit - final version of file is ready for upload
         if you don't put git commit -m "TEXT HERE", second prompt will appear
     git push - uploads files
+
+Difference between git add and git commit:
+
+git add: takes a modified file in your working directory and places the modified version in a staging area. 
+git commit: takes everything from the staging area and makes a permanent snapshot of the current state of your repository that is associated with a unique identifier.
