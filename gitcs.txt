@@ -24,4 +24,5 @@ For example,
 Flow
     git add ** - Adds saved file to "waiting room"
     git commit - final version of file is ready for upload
+        if you don't put git commit -m "TEXT HERE", second prompt will appear
     git push - uploads files
